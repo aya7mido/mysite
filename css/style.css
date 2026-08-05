@@ -338,9 +338,14 @@ footer {
         text-align: center
     }
 
-    .hero h2 {
-        font-size: 3.2rem
-    }
+#about h2{
+    font-size:clamp(1.6rem,6vw,2rem);}
+
+    
+.hero h2{
+    font-size: clamp(2.4rem, 8vw, 3rem);
+    white-space: nowrap;
+}
 
     .gallery {
         grid-template-columns: repeat(2, 1fr)
