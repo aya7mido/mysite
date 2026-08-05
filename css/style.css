@@ -14,7 +14,10 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     background: linear-gradient(#fffbfd, #fff4fb, #f7efff);
     color: #5c5663;
-    overflow-x: hidden
+    overflow-x: hidden;
+
+    -webkit-text-size-adjust:100%;
+text-size-adjust:100%;
 }
 
 .aurora,
@@ -333,6 +336,14 @@ footer {
 }
 
 @media(max-width:768px) {
+.hero-copy{
+    width:100%;
+}
+
+.hero h2{
+    width:100%;
+}
+
     .hero {
         grid-template-columns: 1fr;
         text-align: center
